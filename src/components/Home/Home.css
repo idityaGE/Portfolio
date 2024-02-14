@@ -1,6 +1,5 @@
 #main{
     min-height: 100vh;
-    scroll-behavior: smooth;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -145,4 +144,8 @@
     to {
         transform: translate(-20%, 30%) skew(20deg);
     }
+}
+
+#page2{
+    height: 100vh;
 }

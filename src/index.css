@@ -13,4 +13,6 @@ main{
     margin-top: 10px;
     margin-right: 6px;
     margin-bottom: 10px;
+    overflow: hidden;
+    padding-top: 20px;
 }
