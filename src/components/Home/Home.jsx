@@ -18,9 +18,9 @@ export default function Home() {
     }, [])
     return (
         <div id='main' ref={scrollRef} className='scroll-container'>
-            <div>
+            <div id='page1'>
                 <div id="nav">
-                    <a class="logo" href="https://www.instagram.com/idity_dx/">
+                    <a className="logo" href="https://www.instagram.com/idity_dx/">
                         <h3>@<b>iditya</b>_dx*</h3>
                     </a>
                     <div id="nav-links">
@@ -44,12 +44,23 @@ export default function Home() {
                         <span><i>FEATURE.</i></span></h1>
                 </div>
 
-                <div class="shape-motion2">
-                    <div class="shape12"></div>
+                <div className="shape-motion2">
+                    <div className="shape12"></div>
                 </div>
 
                 <div id='page2'>
+                    <div id='skills' data-scroll data-scroll-speed="5">
+                        <h1 className=' text-6xl text-center font-bold pt-4'>My Skill</h1>
+                        <hr color='black' className='mt-4 h-[3px] mx-auto w-[80vw]' />
 
+                        <div className='flex' >
+                            <div id='softwareDeveloper'>
+                                
+                            </div>
+                            <div id='webDeveloper'></div>
+                            <div id='others'></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
